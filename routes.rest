@@ -1,0 +1,13 @@
+GET http://locolhost:3000/subscribers
+
+###
+GET http://locolhost:3000/subscribers/235
+1
+###
+POST http://locolhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Preson",
+    "subscribedToChannel": "Web Dev Simplified"
+}
