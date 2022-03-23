@@ -1,13 +1,13 @@
-GET http://locolhost:3000/subscribers
+GET http://localhost:3000/subscribers
 
 ###
-GET http://locolhost:3000/subscribers/235
-1
+GET http://localhost:3000/subscribers/623ae38378459c4defaf3ccd
+
 ###
-POST http://locolhost:3000/subscribers
+POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "Amazing Preson",
+    "name": "Arisa T",
     "subscribedToChannel": "Web Dev Simplified"
 }
